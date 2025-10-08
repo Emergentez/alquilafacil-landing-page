@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/logo.png" type="image/png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>AlquilaFácil</title>
+  </head>
+  <body>
+    <nav
+      id="navbar"
+      data-aos-duration="800"
+      class="fixed flex justify-between w-full h-[11dvh] px-4 sm:px-8 md:px-10 lg:px-16 gap-6 z-50 top-0"
+    >
+      <a
+        href="#hero"
+        class="flex items-center gap-2 transition font-semibold"
+      >
+        <img src="./assets/logo.png" alt="logo" class="min-w-14 h-14" />
+        <p class="hidden sm:flex text-2xl">AlquilaFácil</p>
+      </a>
+      <div class="flex items-center justify-end">
+        <ul
+          class="flex gap-3 sm:gap-6 md:gap-7 lg:gap-10 xl:gap-10 2xl:gap-20 text-sm sm:text-base lg:text-xl xl:text-2xl items-center"
+        >
+          <li
+            class="transition px-3 hidden lg:block hover:text-[#fa5151]"
+          >
+            <a href="#discover" class="cursor-pointer">ESPACIOS</a>
+          </li>
+          <li
+          class="transition px-3 hidden lg:block hover:text-[#fa5151]"
+        >
+          <a href="#publish" class="cursor-pointer">PUBLICAR</a>
+        </li>
+          <li
+            class="transition px-3 hidden lg:block hover:text-[#fa5151]"
+          >
+            <a href="#monitoring" class="cursor-pointer">MONITOREO</a>
+          </li>
+          <li
+            class="transition px-3  hidden lg:block hover:text-[#fa5151]"
+          >
+            <a href="#benefits" class="cursor-pointer">BENEFICIOS</a>
+          </li>
+          <li
+            class="transition px-8 py-2 bg-[#D13333] rounded-lg text-white hover:bg-[#D13333]"
+          >
+            <a href="http://alquilafacil-app.chilecentral.cloudapp.azure.com:5173/sign-in" target="_blank" class="cursor-pointer">EMPEZAR</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <aside data-aos="fade-left" data-aos-duration="800" class="bg-amber-500 fixed flex flex-col items-center justify-center h-auto px-4 py-6 gap-4 z-50 right-0 top-1/3 shadow-lg rounded-l-lg">
+      <a
+        href="https://www.facebook.com/profile.php?id=61566546191657"
+        class="hover:text-gray-200"
+      >
+        <img
+          src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"
+          alt="Facebook"
+          class="h-7"
+        />
+      </a>
+      <a
+        href="https://wa.me/+51991042243"
+        class="hover:text-gray-200"
+      >
+        <img
+          src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png"
+          alt="Twitter"
+          class="h-7"
+        />
+      </a>
+      <a
+        href="https://x.com/alquila_facil"
+        class="hover:text-gray-200"
+      >
+        <img
+          src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
+          alt="Twitter"
+          class="h-7"
+        />
+      </a>
+    </aside>
+    <main class="pt-[10dvh]">
+      <section class="relative hero w-full min-h-[90dvh] flex justify-center items-center">
+        <img data-aos="fade-up" src="./assets/search-phonet.png" alt="phone" class="absolute bottom-0 left-0 w-[22%]" />       
+        <div class="self-center justify-center items-center text-center flex flex-col gap-10">
+          <h1 class="text-6xl lg:text-8xl font-bold text-white">
+            <span class="logo-span text-[#D13333]">Alquila</span>Fácil
+          </h1>
+          <p class="text-3xl lg:text-5xl text-white text-balance w-[70%] font-light">
+            La solución ideal para alquilar espacios y monitorear eventos en tiempo real
+          </p>
+          <p class="text-1xl lg:text-2xl text-white text-balance w-[60%] font-light mt-0">
+            Tanto arrendadores como arrendatarios acceden a alertas y herramientas inteligentes para un evento seguro y eficiente.
+          </p>
+        </div>
+        <img data-aos="fade-up" src="./assets/computer.png" alt="computer" class="absolute bottom-10 right-0 w-[25%]" />
+      </section>
+      
+      <section
+        id="discover"
+        class="w-full py-20 px-5 sm:px-10 lg:px-32 bg-[#D13333]"
+      >
+        <div class="max-w-7xl mx-auto">
+          <h2
+            class="text-center text-2xl sm:text-4xl font-bold mb-6 text-white"
+          >
+            DESCUBRE ESPACIOS ÚNICOS
+          </h2>
+          <p class="text-center text-md sm:text-lg lg:text-xl text-white mb-8">
+            Explora una amplia variedad de espacios para eventos, reuniones o
+            momentos especiales. Desde nuestra app movil, filtra por ubicación, tamaño, precio, y
+            encuentra el lugar perfecto que se adapte a tus necesidades.
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition"
+            >
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/03/d9/1d/6c/la-antigua-bodega.jpg"
+                alt="Espacio 1"
+                class="w-full h-40 object-cover rounded-md mb-4"
+              />
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Salón de eventos moderno
+              </h3>
+              <p class="text-gray-600 mb-4">Capacidad: 150 personas</p>
+              <button
+                class="text-[#D13333] font-semibold hover:underline"
+                onclick="toggleDropdown('dropdown1')"
+              >
+                Ver detalles
+              </button>
+              <div id="dropdown1" class="dropdown-content hidden mt-2">
+                <p>
+                  Un salón amplio y elegante, ideal para bodas y eventos
+                  corporativos. Incluye equipo audiovisual y catering
+                  disponible.
+                </p>
+                <a
+                  href="https://play.google.com/store"
+                  class="text-[#D13333] font-semibold hover:underline"
+                  >Reservar ahora</a
+                >
+              </div>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition"
+            >
+              <img
+                src="https://proleon.com.mx/wp-content/uploads/2019/07/SGCoworkingWorkhouse-min-1-1080x675.jpg"
+                alt="Espacio 2"
+                class="w-full h-40 object-cover rounded-md mb-4"
+              />
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Oficina compartida en el centro
+              </h3>
+              <p class="text-gray-600 mb-4">Capacidad: 25 personas</p>
+              <button
+                class="text-[#D13333] font-semibold hover:underline"
+                onclick="toggleDropdown('dropdown2')"
+              >
+                Ver detalles
+              </button>
+              <div id="dropdown2" class="dropdown-content hidden mt-2">
+                <p>
+                  Oficina moderna con servicios incluidos como Wi-Fi, sala de
+                  reuniones y cafetería.
+                </p>
+                <a
+                  href="https://play.google.com/store"
+                  class="text-[#D13333] font-semibold hover:underline"
+                  >Reservar ahora</a
+                >
+              </div>
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition"
+            >
+              <img
+                src="https://panel.construproductos.com/images/posts/65e8d61189515.jpg"
+                alt="Espacio 3"
+                class="w-full h-40 object-cover rounded-md mb-4"
+              />
+              <h3 class="text-xl font-semibold text-gray-800 mb-2">
+                Terraza al aire libre
+              </h3>
+              <p class="text-gray-600 mb-4">Capacidad: 50 personas</p>
+              <button
+                class="text-[#D13333] font-semibold hover:underline"
+                onclick="toggleDropdown('dropdown3')"
+              >
+                Ver detalles
+              </button>
+              <div id="dropdown3" class="dropdown-content hidden mt-2">
+                <p>
+                  Disfruta de una hermosa vista y ambiente relajado, perfecto
+                  para cócteles y eventos sociales.
+                </p>
+                <a
+                  href="https://play.google.com/store"
+                  class="text-[#D13333] font-semibold hover:underline text-center"
+                  >Reservar ahora</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="publish" class="w-full relative min-h-[60dvh] shadow-lg">
+        <div
+          class="w-full max-w-7xl mx-auto flex flex-col gap-24 py-20 px-5 sm:px-10 lg:px-32"
+        >
+          <div class="w-full flex flex-col gap-5">
+            <h2
+              class="text-center text-2xl sm:text-4xl font-bold text-[#D13333]"
+            >
+              PUBLICA TU ESPACIO
+            </h2>
+            <div
+              class="flex flex-col md:flex-row justify-center items-center gap-10"
+            >
+              <div
+                class="flex flex-col gap-12 md:w-1/2 text-center md:text-start"
+              >
+                <p class="text-md sm:text-lg lg:text-xl text-gray-800">
+                  En <span class="font-bold text-[#D13333]">AlquilaFácil</span>,
+                  tienes la oportunidad de compartir tu espacio único con una
+                  amplia audiencia. Al registrarte en nuestra aplicación, podrás
+                  publicar tu espacio para eventos, reuniones o celebraciones y
+                  conectarte con personas que buscan el lugar perfecto.
+                </p>
+                <p class="text-md sm:text-lg lg:text-xl text-gray-800">
+                  Simplemente describe tu espacio, establece tu disponibilidad y
+                  precio, y comienza a recibir reservas.
+                  <span class="font-bold text-[#D13333]">AlquilaFácil</span> te
+                  proporciona la plataforma ideal para maximizar el uso de tu
+                  espacio y generar ingresos adicionales.
+                </p>
+                <div>
+                  <a
+                    href="https://play.google.com/store"
+                    class="bg-[#D13333] text-white font-semibold rounded-lg p-4 hover:bg-[#A12727] transition text-xl"
+                    >Comienza a publicar</a
+                  >
+                </div>
+              </div>
+              <img
+                data-aos="fade-right"
+                data-aos-duration="800"
+                src="./assets/computer-front.png"
+                alt="Publish"
+                class="h-[50dvh] object-fill rounded-lg"
+              />
+            </div>
+          </div>
+          <div class="w-full flex flex-col">
+            <p class="text-center text-xl">
+              Algunos de estos usuarios de
+              <span class="font-bold text-[#D13333]">AlquilaFácil</span> están
+              en busca de tu espacio:
+            </p>
+            <div class="slider">
+              <div class="slide-track">
+                <div class="slide">
+                  <img src="assets/eventos-1.webp" alt="Eventos Eventos" />
+                </div>
+                <div class="slide">
+                  <img src="assets/eventos-2.webp" alt="Eventos eventos" />
+                </div>
+                <div class="slide">
+                  <img src="assets/eventos-3.png" alt="Eventos eventos" />
+                </div>
+                <div class="slide">
+                  <img src="assets/eventos-4.png" alt="Eventos eventos" />
+                </div>
+                <div class="slide">
+                  <img src="assets/eventos-5.png" alt="Eventos eventos" />
+                </div>
+                <div class="slide">
+                  <img src="assets/eventos-6.png" alt="Eventos eventos" />
+                </div>
+                <div class="slide">
+                  <img src="assets/eventos-7.png" alt="Eventos eventos" />
+                </div>
+              </div>
+            </div>
+            <p class="text-center text-2xl font-bold">
+              ¿Qué esperas para comenzar a alquilar tus espacios?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+      id="monitoring"
+      class="w-full py-20 px-5 sm:px-10 lg:px-32 bg-[#D13333]"
+    >
+      <div class="max-w-7xl mx-auto">
+        <h2
+          class="text-center text-2xl sm:text-4xl font-bold mb-6 text-white"
+        >
+          MONITOREO INTELIGENTE CON IoT
+        </h2>
+        <p class="text-center text-md sm:text-lg lg:text-xl text-white mb-8">
+          Gracias a sensores IoT, AlquilaFácil permite a los arrendadores detectar humo,
+          ruido, movimiento en zonas restringidas o exceso de aforo. Las notificaciones
+          se envían directamente a la app movil del arrendatario para una respuesta oportuna.
+        </p>
+        <div class="grid mx-auto grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition"
+          >
+            <img
+              src="./assets/sensor-humo.png"
+              alt="Espacio 1"
+              class="w-full h-40 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Sensores de humo
+            </h3>
+            <p class="text-gray-600 mb-4">Detecta presenta de humo en tu local en tiempo real.</p>
+
+          </div>
+          <div
+          data-aos="zoom-in"
+          data-aos-duration="800"
+          class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition"
+        >
+          <img
+            src="./assets/sensor-ruido.jpg"
+            alt="Espacio 1"
+            class="w-full h-40 object-cover rounded-md mb-4"
+          />
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">
+            Sensores de ruido
+          </h3>
+          <p class="text-gray-600 mb-4">Detecta exceso de ruido en todo momento.</p>
+
+        </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition"
+          >
+            <img
+              src="./assets/sensorr-movimiento.jpg"
+              alt="Espacio 2"
+              class="w-full h-40 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Sensores de movimiento en zonas restringidas
+            </h3>
+            <p class="text-gray-600 mb-4">Detecta movimiento en zonas restringidas en tu local en tiempo real.</p>
+
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition lg:col-start-2"
+          >
+            <img
+              src="./assets/sensor-aforo.jpg"
+              alt="Espacio 3"
+              class="w-full h-40 object-cover rounded-md mb-4"
+            />
+            <h3 class="text-xl  font-semibold text-gray-800 mb-2">
+              Control de aforo
+            </h3>
+            <p class="text-gray-600 mb-4">
+              Controla el aforo de tu local en tiempo real y evita multas por
+              exceso de aforo.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+      <section id="benefits" class="w-full relative">
+        <div class="max-w-7xl mx-auto py-20 px-5 sm:px-10 lg:px-32">
+          <h2
+            class="text-center text-2xl sm:text-4xl font-bold mb-6 text-white"
+          >
+            BENEFICIOS DE USAR ALQUILAFÁCIL
+          </h2>
+          <p class="text-center text-md sm:text-lg lg:text-xl text-white mb-8">
+            Con <span class="font-bold text-[#D13333]">AlquilaFácil</span>,
+            tanto anfitriones como usuarios disfrutan de una experiencia única y
+            enriquecedora. Aquí hay algunas ventajas clave:
+          </p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 transition hover:shadow-2xl"
+            >
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">
+                Variedad de espacios adaptados a cada necesidad
+              </h3>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendadores: </strong> Publica cualquier tipo de local, desde auditorios
+                hasta terrazas al aire libre. Amplía tu visibilidad en una plataforma
+                especializada en eventos.
+              </p>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendatarios:</strong> Explora espacios únicos para eventos sociales,
+                 reuniones o coworking. Accede a locales filtrados por ubicación,
+                  tipo o capacidad.
+              </p>
+              <img
+                src="./assets/search.PNG"
+                alt="Variedad de Espacios"
+                class="h-52 mx-auto"
+              />
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 transition hover:shadow-2xl"
+            >
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">
+                Gestión rápida y segura desde donde estés
+              </h3>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendadores:</strong> Administra tus espacios desde la web:
+                 edita precios, disponibilidad, reporta mantenimiento y
+                  visualiza el historial de reservas.
+              </p>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendatarios:</strong> Revisa tus reservas pasadas, agrega espacios
+                 a favoritos y consulta el calendario disponible directamente
+                  desde tu app móvil.
+              </p>
+              <img
+                src="./assets/filters.PNG"
+                alt="Búsqueda Personalizada"
+                class="h-52 mx-auto"
+              />
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 transition hover:shadow-2xl"
+            >
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">
+                Seguridad y control en tiempo real con sensores IoT
+              </h3>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendadores:</strong> Recibe alertas si se detecta humo,
+                 exceso de aforo o ruido elevado. Protege tu propiedad sin
+                  necesidad de estar presente.
+              </p>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendatarios:</strong> Recibe notificaciones
+                 cuando alguna regla del evento es vulnerada, para poder
+                  actuar antes de que el arrendador intervenga.
+              </p>
+              <img
+                src="./assets/monitoreo.jpg"
+                alt="Comentarios"
+                class="h-52 mx-auto"
+              />
+            </div>
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              class="bg-white shadow-lg rounded-lg p-6 transition hover:shadow-2xl"
+            >
+              <h3 class="text-xl font-semibold text-gray-800 mb-2 text-center">
+                Comentarios reales que generan confianza
+              </h3>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendadores:</strong> Conoce qué piensan los
+                 arrendatarios de tus espacios y mejora tu reputación con cada buena reseña.
+              </p>
+              <p class="text-gray-600 mb-4">
+                <strong>Para arrendatarios:</strong> Consulta las opiniones de otros usuarios
+                 antes de reservar, asegurándote de que el espacio se adapta a tus expectativas.
+              </p>
+              <img
+                src="./assets/comments.PNG"
+                alt="Gestión Sencilla"
+                class="h-52 mx-auto"
+
+              />
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <section
+              id="videos"
+              class="w-full py-20 px-5 sm:px-10 lg:px-32 bg-[#FFFF] mx-auto"
+      >
+      <div class="max-w-7xl mx-auto justify-center ">
+        <h2
+          class="text-center text-2xl sm:text-4xl font-bold mb-6 text-black"
+        >
+          ABOUT THE PRODUCT
+        </h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/8ApW2FvlY6Q"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+                class="w-full h-[60dvh] rounded-lg mx-auto">
+
+        </iframe>
+      </div>
+
+      <div class="max-w-7xl mx-auto justify-center mt-10">
+        <h2
+          class="text-center text-2xl sm:text-4xl font-bold mb-6 text-black"
+        >
+          ABOUT THE TEAM
+        </h2>
+        <iframe width="1310" height="737" src="https://www.youtube.com/embed/9ZdnCfUfQ2M" title="ALQUILA FACIL | ABOUT THE TEAM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+        class="w-full h-[60dvh] rounded-lg mx-auto"></iframe>
+        </iframe>
+
+      </div>
+
+      </section>
+      <footer class="w-full py-10 px-5 sm:px-10 lg:px-32 bg-[#969696FF]">
+        <div class="max-w-7xl mx-auto text-white">
+          <div class="flex flex-col sm:flex-row justify-around mb-8">
+            <div>
+              <h3 class="text-xl font-bold mb-4">Contáctanos</h3>
+              <p class="mb-2">
+                Email:
+                <a href="mailto:info@alquilafacil.com" class="hover:underline"
+                  >info@alquilafacil.com</a
+
+                  
+                >
+              </p>
+
+              <p>
+                Teléfono:
+                <a href="tel:+51991042243" class="hover:underline"
+                  >+51 991 042 243</a
+                >
+              </p>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-4">Síguenos</h3>
+              <div class="flex gap-4">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61566546191657"
+                  class="hover:text-gray-200"
+                >
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/ffffff/facebook-new.png"
+                    alt="Facebook"
+                    class="h-6"
+                  />
+                </a>
+                <a
+                  href="https://x.com/alquila_facil"
+                  class="hover:text-gray-200"
+                >
+                  <img
+                    src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
+                    alt="Twitter"
+                    class="h-6"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="border-t border-white pt-4">
+            <p class="text-center text-lg">
+              © 2025 AlquilaFácil. Todos los derechos reservados. |
+              <a href="./privacy-policy.html" class="hover:underline"
+                >Política de Privacidad</a
+              >
+              |
+              <a href="./service-terms.html" class="hover:underline"
+                >Términos de Servicio</a
+              >
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script>
+      function toggleDropdown(id) {
+        const dropdown = document.getElementById(id);
+        dropdown.classList.toggle("hidden");
+      }
+      const navbar = document.getElementById("navbar");
+
+      
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > window.innerHeight * 1) {
+          navbar.classList.add("navbar-white");
+        } else {
+          navbar.classList.remove("navbar-white");
+        }
+      });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
