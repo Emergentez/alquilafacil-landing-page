@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "spaces": "ESPACIOS",
+    "publish": "PUBLICAR",
+    "monitoring": "MONITOREO",
+    "benefits": "BENEFICIOS",
+    "start": "EMPEZAR"
+  },
+  "hero": {
+    "title": "AlquilaFácil",
+    "subtitle": "La solución ideal para alquilar espacios y monitorear eventos en tiempo real",
+    "description": "Tanto arrendadores como arrendatarios acceden a alertas y herramientas inteligentes para un evento seguro y eficiente."
+  },
+  "discover": {
+    "title": "DESCUBRE ESPACIOS ÚNICOS",
+    "description": "Explora una amplia variedad de espacios para eventos, reuniones o momentos especiales. Desde nuestra app movil, filtra por ubicación, tamaño, precio, y encuentra el lugar perfecto que se adapte a tus necesidades.",
+    "space1": {
+      "title": "Salón de eventos moderno",
+      "capacity": "Capacidad: 150 personas",
+      "details": "Ver detalles",
+      "description": "Un salón amplio y elegante, ideal para bodas y eventos corporativos. Incluye equipo audiovisual y catering disponible.",
+      "reserve": "Reservar ahora"
+    },
+    "space2": {
+      "title": "Oficina compartida en el centro",
+      "capacity": "Capacidad: 25 personas",
+      "details": "Ver detalles",
+      "description": "Oficina moderna con servicios incluidos como Wi-Fi, sala de reuniones y cafetería.",
+      "reserve": "Reservar ahora"
+    },
+    "space3": {
+      "title": "Terraza al aire libre",
+      "capacity": "Capacidad: 50 personas",
+      "details": "Ver detalles",
+      "description": "Disfruta de una hermosa vista y ambiente relajado, perfecto para cócteles y eventos sociales.",
+      "reserve": "Reservar ahora"
+    }
+  },
+  "publish": {
+    "title": "PUBLICA TU ESPACIO",
+    "paragraph1": "En <strong>AlquilaFácil</strong>, tienes la oportunidad de compartir tu espacio único con una amplia audiencia. Al registrarte en nuestra aplicación, podrás publicar tu espacio para eventos, reuniones o celebraciones y conectarte con personas que buscan el lugar perfecto.",
+    "paragraph2": "Simplemente describe tu espacio, establece tu disponibilidad y precio, y comienza a recibir reservas. <strong>AlquilaFácil</strong> te proporciona la plataforma ideal para maximizar el uso de tu espacio y generar ingresos adicionales.",
+    "cta": "Comienza a publicar",
+    "users": "Algunos de estos usuarios de <strong>AlquilaFácil</strong> están en busca de tu espacio:",
+    "question": "¿Qué esperas para comenzar a alquilar tus espacios?"
+  },
+  "monitoring": {
+    "title": "MONITOREO INTELIGENTE CON IoT",
+    "description": "Gracias a sensores IoT, AlquilaFácil permite a los arrendadores detectar humo, ruido, movimiento en zonas restringidas o exceso de aforo. Las notificaciones se envían directamente a la app movil del arrendatario para una respuesta oportuna.",
+    "sensor1": {
+      "title": "Sensores de humo",
+      "description": "Detecta presenta de humo en tu local en tiempo real."
+    },
+    "sensor2": {
+      "title": "Sensores de ruido",
+      "description": "Detecta exceso de ruido en todo momento."
+    },
+    "sensor3": {
+      "title": "Sensores de movimiento en zonas restringidas",
+      "description": "Detecta movimiento en zonas restringidas en tu local en tiempo real."
+    },
+    "sensor4": {
+      "title": "Control de aforo",
+      "description": "Controla el aforo de tu local en tiempo real y evita multas por exceso de aforo."
+    }
+  },
+  "benefits": {
+    "title": "BENEFICIOS DE USAR ALQUILAFÁCIL",
+    "description": "Con <strong>AlquilaFácil</strong>, tanto anfitriones como usuarios disfrutan de una experiencia única y enriquecedora. Aquí hay algunas ventajas clave:",
+    "benefit1": {
+      "title": "Variedad de espacios adaptados a cada necesidad",
+      "landlords": "<strong>Para arrendadores:</strong> Publica cualquier tipo de local, desde auditorios hasta terrazas al aire libre. Amplía tu visibilidad en una plataforma especializada en eventos.",
+      "tenants": "<strong>Para arrendatarios:</strong> Explora espacios únicos para eventos sociales, reuniones o coworking. Accede a locales filtrados por ubicación, tipo o capacidad."
+    },
+    "benefit2": {
+      "title": "Gestión rápida y segura desde donde estés",
+      "landlords": "<strong>Para arrendadores:</strong> Administra tus espacios desde la web: edita precios, disponibilidad, reporta mantenimiento y visualiza el historial de reservas.",
+      "tenants": "<strong>Para arrendatarios:</strong> Revisa tus reservas pasadas, agrega espacios a favoritos y consulta el calendario disponible directamente desde tu app móvil."
+    },
+    "benefit3": {
+      "title": "Seguridad y control en tiempo real con sensores IoT",
+      "landlords": "<strong>Para arrendadores:</strong> Recibe alertas si se detecta humo, exceso de aforo o ruido elevado. Protege tu propiedad sin necesidad de estar presente.",
+      "tenants": "<strong>Para arrendatarios:</strong> Recibe notificaciones cuando alguna regla del evento es vulnerada, para poder actuar antes de que el arrendador intervenga."
+    },
+    "benefit4": {
+      "title": "Comentarios reales que generan confianza",
+      "landlords": "<strong>Para arrendadores:</strong> Conoce qué piensan los arrendatarios de tus espacios y mejora tu reputación con cada buena reseña.",
+      "tenants": "<strong>Para arrendatarios:</strong> Consulta las opiniones de otros usuarios antes de reservar, asegurándote de que el espacio se adapta a tus expectativas."
+    }
+  },
+  "videos": {
+    "title": "ABOUT THE PRODUCT"
+  },
+  "footer": {
+    "contact": "Contáctanos",
+    "email": "Email:",
+    "phone": "Teléfono:",
+    "follow": "Síguenos",
+    "copyright": "© 2025 AlquilaFácil. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  }
+}
