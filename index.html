@@ -9,24 +9,56 @@
     <link href="./output.css" rel="stylesheet" />
     <title>AlquilaFácil</title>
     <style>
+      .language-switcher {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: 40;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        background: white;
+        border-radius: 0.5rem 0 0 0.5rem;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
       .lang-btn {
-        padding: 0.5rem 1rem;
+        padding: 0.75rem 1rem;
         cursor: pointer;
         transition: all 0.3s;
-        border: 2px solid transparent;
-        border-radius: 0.5rem;
+        border: none;
+        background: white;
+        color: #333;
+        font-weight: 600;
+        font-size: 0.875rem;
+        min-width: 50px;
+        text-align: center;
+      }
+      .lang-btn:first-child {
+        border-bottom: 1px solid #e5e7eb;
       }
       .lang-btn.active {
-        border-color: #D13333;
-        font-weight: bold;
+        background: #D13333;
+        color: white;
       }
-      .lang-btn:hover {
-        background-color: rgba(209, 51, 51, 0.1);
+      .lang-btn:hover:not(.active) {
+        background-color: #f3f4f6;
       }
-      .language-switcher {
-        display: flex;
-        gap: 0.5rem;
-        align-items: center;
+
+      @media (max-width: 640px) {
+        .language-switcher {
+          top: auto;
+          bottom: 20px;
+          right: 20px;
+          transform: none;
+          flex-direction: row;
+          border-radius: 0.5rem;
+        }
+        .lang-btn:first-child {
+          border-bottom: none;
+          border-right: 1px solid #e5e7eb;
+        }
       }
     </style>
   </head>
@@ -43,11 +75,7 @@
         <img src="./assets/logo.png" alt="logo" class="min-w-14 h-14" />
         <p class="hidden sm:flex text-2xl">AlquilaFácil</p>
       </a>
-      <div class="flex items-center justify-end gap-4">
-        <div class="language-switcher hidden sm:flex">
-          <button class="lang-btn" data-lang="en" onclick="i18n.setLanguage('en')">EN</button>
-          <button class="lang-btn" data-lang="es" onclick="i18n.setLanguage('es')">ES</button>
-        </div>
+      <div class="flex items-center justify-end">
         <ul
           class="flex gap-3 sm:gap-6 md:gap-7 lg:gap-10 xl:gap-10 2xl:gap-20 text-sm sm:text-base lg:text-xl xl:text-2xl items-center"
         >
@@ -79,6 +107,11 @@
         </ul>
       </div>
     </nav>
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+      <button class="lang-btn" data-lang="en" onclick="i18n.setLanguage('en')">EN</button>
+      <button class="lang-btn" data-lang="es" onclick="i18n.setLanguage('es')">ES</button>
+    </div>
     <aside data-aos="fade-left" data-aos-duration="800" class="bg-amber-500 fixed flex flex-col items-center justify-center h-auto px-4 py-6 gap-4 z-50 right-0 top-1/3 shadow-lg rounded-l-lg">
       <a
         href="https://www.facebook.com/profile.php?id=61566546191657"
