@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Oxanium:wght@200..800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 10dvh;
+}
+
+body {
+  background-color: #3b3b3a;
+}
+
+* {
+  font-family: 'Lexend', sans-serif;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -2;
+}
+
+.hero::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(61, 59, 59, 0.822), rgba(43, 43, 43, 0.718)), url('https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2022/04/amigos-diversion-risas-desayuno-cafe-2680373.jpg?tf=3840x');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 1200px) {
+  .hero::before {
+    clip-path: polygon(0 0, 100% 0, 100% 51%, 100% 100%, 25% 100%, 18% 44%);
+  }
+}
+
+nav {
+  background-color: #3b3b3a;
+  color: white;
+  padding: 10px 20px;
+  transition: all .2s ease; 
+}
+
+@keyframes changeColor {
+  from {
+    background-color: #3b3b3a; 
+    color: white;
+  }
+  to {
+    background-color: white;
+    color: #3b3b3a; 
+  }
+}
+
+
+.navbar-white {
+  animation: changeColor .2s ease-in-out forwards; 
+}
+
+.download-button {
+  outline: 5px solid white;
+  outline-offset: -5px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(121, 118, 118, 0.5);
+}
+
+.download-button:hover{
+  animation: bounce 0.5s ease; 
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Altura del rebote */
+  }
+}
+
+.dropdown-content {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#download {
+  background: linear-gradient(rgba(240, 240, 240, 0.4), rgba(255, 255, 255, 0.4)), url('https://www.zmo.ai/wp-content/uploads/2023/09/powerpoint-slide-with-white-background-SB02298-min-scaled.jpg');
+  z-index: -1;
+}
+
+#publish:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(240, 240, 240, 0.4), rgba(255, 255, 255, 0.4)), url('https://i.pinimg.com/originals/82/a0/47/82a0474442bb6189afd19ba620222507.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+#benefits:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(251, 158, 73, 0.7), rgba(251, 158, 73, 0.7)), url('https://www.lapizdeacero.org/wp-content/uploads/2023/08/Patio-deportivo-interaccion-con-el-paisaje-proyecto-El-tunal-1-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track {
+  display: flex;
+  gap: 20px;
+  animation: scroll 20s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
+  width: calc(200px * 7);
+  overflow: hidden;
+}
+
+.slider .slide {
+  mix-blend-mode: multiply;
+  width: 200px;
+  height: 200px;
+}
+
+.slider .slide img {
+  width: 100%;
+  height: auto;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 2));
+    transform: translateX(calc(-200px * 2));
+  }
+}
