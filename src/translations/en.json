@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "spaces": "SPACES",
+    "publish": "PUBLISH",
+    "monitoring": "MONITORING",
+    "benefits": "BENEFITS",
+    "start": "START"
+  },
+  "hero": {
+    "title": "AlquilaFácil",
+    "subtitle": "The ideal solution for renting spaces and monitoring events in real time",
+    "description": "Both landlords and tenants access alerts and smart tools for a safe and efficient event."
+  },
+  "discover": {
+    "title": "DISCOVER UNIQUE SPACES",
+    "description": "Explore a wide variety of spaces for events, meetings or special moments. From our mobile app, filter by location, size, price, and find the perfect place that suits your needs.",
+    "space1": {
+      "title": "Modern event hall",
+      "capacity": "Capacity: 150 people",
+      "details": "See details",
+      "description": "A spacious and elegant hall, ideal for weddings and corporate events. Includes audiovisual equipment and catering available.",
+      "reserve": "Reserve now"
+    },
+    "space2": {
+      "title": "Shared office downtown",
+      "capacity": "Capacity: 25 people",
+      "details": "See details",
+      "description": "Modern office with included services such as Wi-Fi, meeting room and cafeteria.",
+      "reserve": "Reserve now"
+    },
+    "space3": {
+      "title": "Outdoor terrace",
+      "capacity": "Capacity: 50 people",
+      "details": "See details",
+      "description": "Enjoy a beautiful view and relaxed atmosphere, perfect for cocktails and social events.",
+      "reserve": "Reserve now"
+    }
+  },
+  "publish": {
+    "title": "PUBLISH YOUR SPACE",
+    "paragraph1": "At <strong>AlquilaFácil</strong>, you have the opportunity to share your unique space with a wide audience. By registering in our application, you will be able to publish your space for events, meetings or celebrations and connect with people looking for the perfect place.",
+    "paragraph2": "Simply describe your space, set your availability and price, and start receiving reservations. <strong>AlquilaFácil</strong> provides you with the ideal platform to maximize the use of your space and generate additional income.",
+    "cta": "Start publishing",
+    "users": "Some of these <strong>AlquilaFácil</strong> users are looking for your space:",
+    "question": "What are you waiting for to start renting your spaces?"
+  },
+  "monitoring": {
+    "title": "SMART MONITORING WITH IoT",
+    "description": "Thanks to IoT sensors, AlquilaFácil allows landlords to detect smoke, noise, movement in restricted areas or excess capacity. Notifications are sent directly to the tenant's mobile app for a timely response.",
+    "sensor1": {
+      "title": "Smoke sensors",
+      "description": "Detects presence of smoke in your premises in real time."
+    },
+    "sensor2": {
+      "title": "Noise sensors",
+      "description": "Detects excess noise at all times."
+    },
+    "sensor3": {
+      "title": "Movement sensors in restricted areas",
+      "description": "Detects movement in restricted areas in your premises in real time."
+    },
+    "sensor4": {
+      "title": "Capacity control",
+      "description": "Control the capacity of your premises in real time and avoid fines for overcrowding."
+    }
+  },
+  "benefits": {
+    "title": "BENEFITS OF USING ALQUILAFÁCIL",
+    "description": "With <strong>AlquilaFácil</strong>, both hosts and users enjoy a unique and enriching experience. Here are some key advantages:",
+    "benefit1": {
+      "title": "Variety of spaces adapted to each need",
+      "landlords": "<strong>For landlords:</strong> Publish any type of premises, from auditoriums to outdoor terraces. Expand your visibility on a platform specialized in events.",
+      "tenants": "<strong>For tenants:</strong> Explore unique spaces for social events, meetings or coworking. Access premises filtered by location, type or capacity."
+    },
+    "benefit2": {
+      "title": "Fast and secure management from wherever you are",
+      "landlords": "<strong>For landlords:</strong> Manage your spaces from the web: edit prices, availability, report maintenance and view reservation history.",
+      "tenants": "<strong>For tenants:</strong> Review your past reservations, add spaces to favorites and check the available calendar directly from your mobile app."
+    },
+    "benefit3": {
+      "title": "Real-time security and control with IoT sensors",
+      "landlords": "<strong>For landlords:</strong> Receive alerts if smoke, overcrowding or high noise is detected. Protect your property without needing to be present.",
+      "tenants": "<strong>For tenants:</strong> Receive notifications when any event rule is violated, so you can act before the landlord intervenes."
+    },
+    "benefit4": {
+      "title": "Real reviews that generate trust",
+      "landlords": "<strong>For landlords:</strong> Know what tenants think of your spaces and improve your reputation with each good review.",
+      "tenants": "<strong>For tenants:</strong> Check the opinions of other users before booking, making sure the space meets your expectations."
+    }
+  },
+  "videos": {
+    "title": "ABOUT THE PRODUCT"
+  },
+  "footer": {
+    "contact": "Contact Us",
+    "email": "Email:",
+    "phone": "Phone:",
+    "follow": "Follow Us",
+    "copyright": "© 2025 AlquilaFácil. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
